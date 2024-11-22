@@ -114,6 +114,28 @@ header {
     margin-top: 20px;
 }
 
+#connect-button {
+    padding: 12px 30px;
+    background-color: #FF6347;
+    color: white;
+    font-size: 1rem;
+    border: none;
+    cursor: pointer;
+    margin-top: 20px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+#connect-button:hover {
+    background-color: #FF4500;
+}
+
+#social-links {
+    display: none;
+    text-align: center;
+    margin-top: 20px;
+}
+
 .social-links {
     display: flex;
     justify-content: center;
@@ -169,5 +191,10 @@ header {
     .carousel {
         width: 200px;
         height: 200px;
+    }
+
+    #connect-button {
+        width: 100%;
+        font-size: 1.2rem;
     }
 }
